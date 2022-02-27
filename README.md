@@ -1,6 +1,20 @@
 # Getting Started with Create React App
+1. After cloning the application make a file with name "apiKey.js" in src folder.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Following things are required to write in apiKey.js file:-
+        const Api_Key = 'Your API Key';
+        export default Api_Key;
+
+  save and close the file.
+3. Step to get your own API KEY:-
+    a. Create your account on Openweathermap.org. If already created then login with your credentials.
+    b. On right top most corner you able to see your profile name dropdown.
+    c. Click on profile name dropdown and select "My Api keys".
+    d. There you find a default Api key use that key or make a new key as per your need.
+
+4. Paste your API KEY in the place of "Your API key" availabe in apiKey.js file with-in single quotation.
+
+
 
 ## Available Scripts
 
